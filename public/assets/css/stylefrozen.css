@@ -1,0 +1,67 @@
+@font-face {
+  font-family: bolen;
+  src: url(../fontbolen/bolen.ttf);
+}
+body{
+    background-image: url(../img/frozen/bgfrozen2.jpg);
+    width: 100%;
+    margin-left: 180px;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: bolen;
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 160px;
+    font-weight: 350;
+    height: 100%;
+    z-index: 1000;
+}
+
+img{
+   float: left;
+   margin: 20px;
+}
+
+.frozen img:hover {
+  width: 30%;
+  transition:2s ease;
+}
+
+
+/* handphone */
+@media (max-width:576px) {
+    
+  body{
+    background-image: url(../img/frozen/bgfrozen2.jpg);
+    margin-right: 10px;
+    margin-left: 100px;
+    background: cover;
+    font-family: bolen;
+    }
+
+  .navbar {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 90px;
+      font-weight: 10px;
+      height: 100%;
+  }
+
+    img {
+      float: left;
+      width: 50%;
+      height: auto;
+      margin: 15px;
+    }
+
+    .frozen img:hover {
+        width: 60%;
+        transition:1s ease;
+    }
+}
